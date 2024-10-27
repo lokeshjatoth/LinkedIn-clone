@@ -104,7 +104,7 @@ const NotificationsPage = () => {
                     notifications && notifications.data.length > 0 ? (
                         <ul>
                             {notifications.data.map((notification) => (
-                                <li key={notification._id} className={`bg-white border rounded-lg p-4 transition-all hover:shadow-md ${notification.read ? "border-blue-500" : "border-gray-200"}`}>
+                                <li key={notification._id} className={`bg-white border rounded-lg my-4 p-4 transition-all hover:shadow-md ${notification.read ? "border-blue-500" : "border-gray-200"}`}>
                                     <div className="flex items-center justify-between">
                                     <div className="flex items-center space-x-4">
                                     <Link to={`/profile/${notification.relatedUser.username}`} className="font-bold">
