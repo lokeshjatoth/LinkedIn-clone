@@ -2,6 +2,10 @@
 
 A web application that mimics the core functionalities of LinkedIn, allowing users to create profiles, connect with others, share updates, and engage with content. The application features a modern, user-friendly interface, secure authentication, and real-time updates.
 
+Here is the Deployed Link
+
+* https://linkedin-clone-ttl9.onrender.com/
+
 ## Key Features
 
 - User authentication and authorization
@@ -34,7 +38,3 @@ A web application that mimics the core functionalities of LinkedIn, allowing use
    ```bash
    git clone https://github.com/lokeshjatoth/LinkedIn-clone.git
 
-
-Here is the Deployed Link
-
-* https://linkedin-clone-ttl9.onrender.com/
